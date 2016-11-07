@@ -1,1 +1,66 @@
 ﻿
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Chango', cursive;
+*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+	background-color: #aa9e7a;
+}
+
+nav a:hover {
+	background-color: yellow;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Chango', cursive;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+nav {
+	background-color: #599a68;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+}
+
+footer {
+	font-size: 0.75em; /* 12px */
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: lightgreen;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
