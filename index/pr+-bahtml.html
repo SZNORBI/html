@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ismerkedés a HTML-el</title>
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chango|Open+Sans" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	
+    
+  </head>
+  
+  <body>
+    <header>
+      <a href="próbahtml.html" id="logo">
+        <h1>Szalkai-Szabó Norbert portfóliója</h1> 
+        <h2>Eutanázia program</h2> 
+      </a>
+      <!-- navigációs rész (menüpontok) -->
+      <nav>
+        <ul>
+            <li><a href="próbahtml.html" class="selected">Portfólió</a></li>
+            <li><a href="about.html">Magamról</a></li>
+            <li><a href="contact.html">Kapcsolat</a></li>
+        </ul>  
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+            <li>
+                <a href="https://i.ytimg.com/vi/YxrG_4DWpTo/maxresdefault.jpg">
+                    <img src="https://i.ytimg.com/vi/YxrG_4DWpTo/maxresdefault.jpg" alt="Győzike">
+                    <p>Győzikék a dácsiában.</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://hu.wikipedia.org/wiki/B%C3%B6de_D%C3%A1niel">
+                    <img src="http://media.gettyimages.com/photos/birkir-bjarnason-daniel-bode-during-he-euro-2016-group-f-football-picture-id541177578" alt="böde">
+                    <p>Böde Dani egy izlandi védővel.</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://hu.wikipedia.org/wiki/Bogd%C3%A1n_%C3%81d%C3%A1m">
+                    <img src="http://cdn-kwesesports.365.co.za.s3-eu-west-1.amazonaws.com/wp-content/uploads/2015/12/01102500/1024x534.7096774193549__origin__0x36_Adam_Bogdan_Liverpool.jpg" alt="bogdan">
+                    <p>csicska.</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://hu.wikipedia.org/wiki/Gareth_Bale">
+                    <img src="http://hdlivewallpapers.com/wp-content/uploads/2016/08/Gareth-Bale-Backgrounds-1024x768.jpg" alt="gareth">
+                    <p>Geretbél a Real Madrid egyik csatára.</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://hu.wikipedia.org/wiki/Szalai_%C3%81d%C3%A1m">
+                    <img src="http://s.weltsport.net/picmon/b4/21tC_a2RsD_l.jpg" alt="szalai">
+                    <p>A magyar válogatott gólvágója.</p>
+                </a>
+                
+            </li>
+        </ul>
+       
+      </section>
+    
+      <footer>
+          <a href="https://www.facebook.com/szalkaiszabo.norbert">
+            <img src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" alt="Facebook logó" class="social-icon">
+          </a>
+          <a href="https://www.twitter.com">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAYFBMVEUlqeH///9BtOXv+f00r+MurOLr9/zp9vzN6/hDteWo3fPb8fr6/f72+/5WvOiL0e92yeye2fLR7fnD5/eAze6t3/Tg8/tpxOpYveiS1PC95faX1vGM0e/P7Phuxuuk2/OUVmCZAAAC8ElEQVRYha2X2YKrIAyGEQVFWWq14tLR93/LQVsrBFx65vyXaj5JCElAUVhxlquWYYIQwaxVj59450MUekgr1SbIUSKfVZDhA3hRSoICIrJs+DmgUDhk/RJTzQmAdgfmC6KMDwC8aoOLdxzRGd8DiDI5M5+FcxEG0Pr09+9FqDgESMdr5jPhRn1Aqi/bG40UAuj1/y+6xS5A1N/ZmzgIG8DLi/GzCDm3ANWl/XOF7xuAtt/bI6TjFcC707/JtmXQSzKtgOIk/2VeCCHS6rY4muiVxJoXgFs7MPrBIHW6pnrPiFTZ8HnV8QVgLYA1OSR89mtWkdGoYZtnzQLYiOjGOSRocHxTTbZolDOAyu1rExbeM9ueVK69KIdefQAyNoDeim4+f3PX1pMWLIALe40Gj+wQzkua06LcoqIiIO4UjWeEbA/Q+C42W2GcDu2NDyizH+C1ZvJi0snHKUux/T+TFBmanAfDVu9E8eh0+wCA1AkxQg/knmOcgZAJAGhA1irkLEm37R1GzdUPSJMWOcRJ3ItjQAWOFEMOsfZbF1Dp2iPgEUvPADcAgGccbjsU2EVf+OcYkJ3WPnm8Cwp+TxBEsonu21PPAwzDiMw8s7+TuVf9GYLM2ku+owWYRIItCR8EYfDbjwKHyUjv5kIWqN4P5Dcl7c1BL6WB9mOOc8AvOQWmsSiGSbiEIHZL2luEjT20FyrUf5+gqK7CAxwq4+D8MxdVf28I67xMSMdg/29jp7EQxpjUXe9tA692zlDptjai+1QEwpc+d47Qu7VZYcR1BvOQNwMLm3+aq9PeE13e43UV3FTmcb/3r+0dDhiJ1LWa8ulZa3l0/MnSx/4y4tAP4N+GrFfx+k9jXiRCiX4od9A0YfhqVPZH3W+Hbe0N298RQuP+3y8c1688086Vx+xmdiGjDi5dsxvD6bUP9B148eSHF0/89EpN6OrbeYP5IiKH4sLVd1ba1/AcJlJVwaYZBJhl0GqqJX7N91jWeUZ3hpdfTBch+G4J354AAAAASUVORK5CYII=" alt="Twitter logó" class="social-icon">
+          </a>
+        <p>&copy; 2016 Szalkai-Szabó Norbert</p>
+      </footer>   
+	</div>  <!-- wrapper -->
+   </body>
+
+</html>

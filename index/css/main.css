@@ -1,0 +1,144 @@
+﻿
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Chango', cursive;
+*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+header {
+	background-color: #aa9e7a;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+h1 {
+	font-family: 'Chango', cursive;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+nav {
+	background-color: #599a68;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+}
+
+iframe {
+      display: block;
+	  margin: 0 auto;
+}
+
+footer {
+	font-size: 0.75em; /* 12px */
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: lightgreen;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+/*-------- about.html page -----------*/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+
+/*-------- contact.html ----------------*/
+
+.contact-info li {
+	background: no-repeat;
+	background-size: 15px 15px;
+	padding-left: 20px;
+	
+}
+
+.contact-info {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+	margin: 15px 0;
+}
+
+.contact-info li.phone {
+	background-image: url("http://www.iconsfind.com/wp-content/uploads/2013/11/Contact-Methods-Phone.ico");
+	
+}
+
+.contact-info li.mail {
+	background-image: url("http://findicons.com/files/icons/949/token/256/e_mail.png");
+}
+
+.contact-info li.facebook {
+	background-image: url("https://huboncampus.com/wp-content/themes/hub/images/social/facebook/facebook-256-black.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
